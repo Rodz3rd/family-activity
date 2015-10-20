@@ -1,0 +1,134 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font: bold 20px tahoma;
+}
+
+h2 {
+	font: bold 14px tahoma;
+}
+
+header, nav, section, article, hgroup, aside, footer {
+	display: block;
+}
+
+body {
+	text-align: center;
+}
+
+#container {
+	width: 1000px;
+	background-image: url(../img/body-bg.png);
+	border: 1px solid black;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#web-header {
+	background-image: url(../img/banner-bg-blur.jpg);
+	padding: 20px;
+	border: 1px solid black;
+}
+
+#web-nav {
+	background: linear-gradient(45deg, rgb(103, 144, 190), rgb(80, 107, 152));
+	border: 1px solid black;
+	color: white;
+}
+
+#web-nav li {
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+}
+
+#web-nav li a.selected {
+	text-decoration: none;	
+}
+
+#web-nav li a {
+	color: white;
+}
+
+#web-nav li a:hover,
+#web-nav li a:active {
+	color: green;
+}
+
+#web-section {
+	width: 680px;
+	margin: 30px 20px; /* 710px, 290 left */
+	float: left;
+}
+
+#web-section article img {
+	max-width: 100%;
+	float: right;
+	width: 16%;
+}
+
+#web-section article img.rotate {
+	-webkit-transition: .5s -webkit-transform;
+}
+
+#web-section article img.rotate:hover {
+	-webkit-transform: rotate(360deg) scale(1.5);
+}
+
+#contact-info {
+	background-image: url(../img/banner-bg-blur.jpg);
+	float: right;
+	width: 30%;
+	padding: 20px;
+}
+
+article {
+	border: 1px solid rgb(197, 206, 221);
+ 	background-color: #EBEBEB;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+article p {
+	margin-top: 5px;
+	text-indent: 30px;
+}
+
+article footer {
+	margin-top: 20px;
+	text-align: right;
+	font-style: italic;
+}
+
+#web-aside {
+	width: 220px;
+	margin: 30px 0;
+	padding: 20px;
+	border: 1px solid rgb(197, 206, 221);
+	background-color: #EBEBEB;
+	float: left;
+}
+
+#web-aside li {
+	list-style-type: decimal;
+	margin-left: 15px;
+}
+
+#web-footer {
+	background-image: url(../img/banner-bg-blur.jpg);
+	clear: both;
+	text-align: center;
+	border-top: 1px solid green;
+	padding: 30px;
+}
+
+/* For Video */
+#video-container > video {
+	width: 99%;
+	margin: 0 .5%;
+	height: 30%;
+	top: 0;
+}

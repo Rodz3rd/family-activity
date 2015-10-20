@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Args Family</title>
+	<link rel="stylesheet" type="text/css" href="my_css.css" />
+	<link rel="icon" href="img/h5c3js.jpg" />
+	<style type="text/css">
+		#web-section article:nth-child(3) img {
+			float: none;
+		}
+	</style>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+	<div id="container">
+		<header id="web-header">
+			<h1>Welcome to my Website!</h1>
+		</header>
+
+		<nav id="web-nav">
+			<ul>
+				<li><a href="about args.html">About Args</a></li>
+				<li> <a href="#" class="selected">My Family</a></li>
+				<li> <a href="my friends.html">Friends</a></li>
+			</ul>
+		</nav>
+
+		<section id="web-section">
+			<article>
+				<img src="img/my family/papa.jpg" title="My Father" alt="pict ni papa" />
+				<header>
+					<hgroup>
+						<h1>My Father</h1>
+					</hgroup>
+				</header>
+				<br />
+				<strong>Name: </strong> Rodrigo Galura Jr. <br />
+				<strong>Age: </strong> ?? years old <br />
+				<strong>Occupation: </strong> OFW in Kuwait <br />
+			</article>
+			<article>
+				<img src="img/my family/mama.jpg" title="My Mother" alt="pict ni mama" />
+				<header>
+					<hgroup>
+	<h1>My Mother</h1>
+					</hgroup>
+				</header>
+				<br />
+				<strong>Name: </strong> Noemi Galura <br />
+				<strong>Age: </strong> ?? years old <br />
+				<strong>Occupation: </strong> Shoe Maker <br />
+			</article>
+			<article>
+				<header>
+					<hgroup>
+						<h1>My Siblings & Stepchild</h1>
+					</hgroup>
+				</header>
+				<div id="my-siblings-slider">
+				</div>
+			</article>
+		</section>
+
+		<aside id="web-aside">
+			<h1>Entertainment</h1><br />
+			<div id="video-container">
+				<video controls>
+					<source type="video/mp4" src="videos/9GAG - Why So Serious_.mp4" />
+					Your browser does not support the video tag.
+				</video>
+			</div>
+			<ul>
+				<li><a href="#" onclick="play1();">Batman</a></li>
+				<li><a href="#" onclick="play2();">Justin Bieber</a></li>
+				<li><a href="#" onclick="play3();">bike</a></li>
+				<li><a href="#" onclick="play4();">cratus geme geme</a></li>
+				<li><a href="#" onclick="play5();">palusot sa gym</a></li>
+				<li><a href="#" onclick="play6();">jumping cat</a></li>
+				<li><a href="#" onclick="play7();">Cows XD</a></li>
+				<li><a href="#" onclick="play8();">lastik</a></li>
+				<li><a href="#" onclick="play9();">super bibbo</a></li>
+				<li><a href="#" onclick="play10();">best combo ever</a></li>
+				<li><a href="#" onclick="play11();">biker man</a></li>
+				<li><a href="#" onclick="play12();">bola</a></li>
+				<li><a href="#" onclick="play13();">destiny</a></li>
+				<li><a href="#" onclick="play14();">shorcut</a></li>
+			</ul>
+		</aside>
+
+		<footer id="web-footer">
+			<p>Copyright Args Family - 2015</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="video.js"></script>
+</body>
+</html>
